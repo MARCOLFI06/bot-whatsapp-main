@@ -45,7 +45,7 @@
     "socket.io": "^4.5.1",
     "stormdb": "^0.6.0",
     "vm2": "^3.9.11",
-    "whatsapp-web.js": "latest",
+    "whatsapp-web.js": "github:ReforwardDev/whatsapp-web.js#patch-1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
