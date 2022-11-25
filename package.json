@@ -31,6 +31,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/dialogflow": "^5.2.0",
+    "chromium": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "exceljs": "^4.3.0",
@@ -38,7 +39,6 @@
     "file-type": "^17.1.6",
     "mime-db": "^1.52.0",
     "moment": "^2.29.4",
-    "node-chromium": "^3.0.3",
     "mysql": "^2.18.1",
     "qr-image": "^3.2.0",
     "qrcode-terminal": "^0.12.0",
