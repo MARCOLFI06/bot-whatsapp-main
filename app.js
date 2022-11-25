@@ -127,9 +127,9 @@ const listenMessage = () => client.on('message', async msg => {
 
 
 client = new Client({
-        authStrategy: new LocalAuth(),
-        puppeteer: { headless: true }
-    });
+    authStrategy: new LocalAuth(),
+    puppeteer: { headless: true, args: ['--no-sandbox','--disable-setuid-sandbox'] }
+});
     
 client.on('qr', qr => generateImage(qr, () => {
         qrcode.generate(qr, { small: true });
